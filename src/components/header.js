@@ -4,7 +4,7 @@ import '../assets/css/header.css';
 
 export default function Header() {
     const header = {
-        title: 'Library Star Book',
+        title: 'Library STAR BOOK',
         theme: {
             color: 'black',
             backgroundColor: 'white',
