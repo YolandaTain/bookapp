@@ -1,0 +1,16 @@
+.library{
+    width:10rem;
+    height:10rem;
+}
+
+.headerStyle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    flex-basis:100%
+}
