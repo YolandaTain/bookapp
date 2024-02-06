@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/css/book.css';
 
-
 export default function Book() {
     const books = [
         {
