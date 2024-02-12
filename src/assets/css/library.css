@@ -1,5 +1,4 @@
-.libraryStyle{
-    color:black;
-    display: flex;
-    justify-content: flex-start;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

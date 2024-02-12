@@ -1,0 +1,53 @@
+{
+    "books": [
+      {
+        "title": "El nombre del viento",
+        "author": "Patrick Rothfuss",
+        "genre": "Fantasía",
+        "pages": 662,
+        "disponible": true,
+        "imagen": "https://m.media-amazon.com/images/I/51ccvVWI+eL._SY445_SX342_.jpg"
+      },
+      {
+        "title": "Cien años de soledad",
+        "author": "Gabriel García Márquez",
+        "genre": "Realismo mágico",
+        "pages": 432,
+        "disponible": false,
+        "imagen": "https://m.media-amazon.com/images/I/91TvVQS7loL._SL1500_.jpg"
+      },
+      {
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Distopía",
+        "pages": 328,
+        "disponible": true,
+        "imagen": "https://m.media-amazon.com/images/I/71sOSrd+JxL._SL1500_.jpg"
+      },
+      {
+        "title": "Orgullo y prejuicio",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "pages": 416,
+        "disponible": false,
+        "imagen": "https://m.media-amazon.com/images/I/81smOptGtLL._SL1500_.jpg"
+      },
+      {
+        "title": "El señor de los anillos: La comunidad del anillo",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasía",
+        "pages": 576,
+        "disponible": true,
+        "imagen": "https://m.media-amazon.com/images/I/81DjOU3MIvL._SL1500_.jpg"
+      },
+      {
+        "title": "Crónica de una muerte anunciada",
+        "author": "Gabriel García Márquez",
+        "genre": "Realismo mágico",
+        "pages": 120,
+        "disponible": false,
+        "imagen": "https://m.media-amazon.com/images/I/91geyJSGR6L._SL1500_.jpg"
+      }
+    ]
+  }
+  

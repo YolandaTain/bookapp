@@ -1,7 +1,9 @@
 import React from 'react';
 import '../assets/css/book.css';
+import Boton from './boton';
 
-export default function Book() {
+export default function Book({ book, mensaje }) {
+    /*
     const books = [
         {
             title: 'El nombre del viento',
@@ -46,23 +48,30 @@ export default function Book() {
             image: require('../assets/img/libro6.jpg')
         }
     ]
+    */
 
     return (
-        
-        <div className='container'>
-            {
-                books.map((book, index) => {
-                    return (
-                        <div key={index} className="bookStyle">
-                            <img alt="Foto" src={book.image} />
-                            <h2><strong>Title: </strong>{book.title}</h2>
-                            <p><strong>Author: </strong>{book.author}</p>
-                            <p><strong>Genre: </strong>{book.genre}</p>
-                            <p><strong>Pages: </strong>{book.pages}</p>
-                        </div>
-                    )
-                })
-            }
+
+        <div className='bookStyle'>
+            <img
+                src={book.imagen}
+                className="book"
+                alt="Book"
+                width={250}
+                height={350}
+            />
+            <h2>{book.title}</h2>
+            <p><strong>Author: </strong>{book.author}</p>
+            <p><strong>Genre: </strong>{book.genre}</p>
+            <p><strong>Pages: </strong>{book.pages}</p>
+            <div className="containerBotones">
+                {
+                    book.disponible
+                        ? <Boton estilos="disponibleBoton" name="Reservar" mensaje="Reserva realizada" />
+                        : <Boton estilos="avisarBoton" name="Avisar" mensaje="Se le avisará cuando el libro vuelva a estar disponible" />
+                }
+            </div>
+
         </div>
 
     )
